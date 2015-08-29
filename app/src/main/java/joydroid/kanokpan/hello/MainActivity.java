@@ -23,7 +23,14 @@ public class MainActivity extends AppCompatActivity {
         //Bind Widget ประกาศการผูกความสัมพันธ์ของตัวแปร กับ widget
         bindWidget();
 
+        //Button Controller
+        buttonController();
+
     }   // this is main method, first method to start working
+
+    private void buttonController() {
+
+    }
 
     private void bindWidget() {
         trafficListView = (ListView) findViewById(R.id.listView);
