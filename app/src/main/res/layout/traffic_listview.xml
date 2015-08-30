@@ -13,8 +13,9 @@
         android:layout_height="wrap_content"
         android:text="New Text"
         android:id="@+id/TxtShowTitle"
-        android:textSize="@dimen/h1"
+        android:textSize="@dimen/h11"
         android:layout_gravity="center_vertical"
-        android:textColor="@color/text" />
+        android:textColor="@color/text"
+        android:textIsSelectable="true" />
 
 </LinearLayout>
