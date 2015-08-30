@@ -2,5 +2,8 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="h1">40sp</dimen>
+    <dimen name="h1">40sp</dimen> //size text  on page 1
+    <dimen name="h2">20sp</dimen>  //size text list view
+    <dimen name="icon">100dp</dimen>   //size small photo on page1
+    <dimen name="image">250dp</dimen>   //size big photo on page2
 </resources>
