@@ -1,10 +1,14 @@
 package joydroid.kanokpan.hello;
 
+import android.content.Intent;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.provider.LiveFolders;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
 
@@ -29,13 +33,27 @@ public class MainActivity extends AppCompatActivity {
     }   // this is main method, first method to start working
 
     private void buttonController() {
+        aboutMeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                //when click will active event here
+                //sound effect
+                MediaPlayer buttonPlayer = MediaPlayer.create(getBaseContext(), R.raw.effect_btn_long);
+                buttonPlayer.start();
+                //Intent to webview, after click then go to website/url and can go to other application
+                Intent objIntent = new Intent(Intent.ACTION_VIEW);  //ประกาศตัวแปร objIntent
+                objIntent.setData(Uri.parse("http://www.hengbao.com/en/"));   //go to this link
+                startActivity(objIntent);  //method start activity objIntent
+            }  //event
+        });
+
 
     }
 
     private void bindWidget() {
         trafficListView = (ListView) findViewById(R.id.listView);
         aboutMeButton = (Button) findViewById(R.id.button);
-
 
 
     }   //bindWidget
