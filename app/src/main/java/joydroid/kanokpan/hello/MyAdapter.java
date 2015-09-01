@@ -52,9 +52,8 @@ public class MyAdapter extends BaseAdapter {
         iconImageView.setImageResource(iconInts[i]);
 
         //show title
-        TextView titleTextView = (TextView) objView1.findViewById(R.id.TxtShowTitle);
+        TextView titleTextView = (TextView) objView1.findViewById(R.id.txtTitleDetail);
         titleTextView.setText(titleStrings[i]);
-
 
         return objView1;
     }

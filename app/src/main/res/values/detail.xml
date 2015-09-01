@@ -1,2 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+
+<resources>
+    <string-array name="detail">
+        <item>11111111111111111111111111111111111ajflsjfadksjgdfjdkljfskfjslfjlefjweudkslsjfskdfjslfjslfjslfjslfjdlsfjslfjslkfjsljflsjflsfjlsfsldlkdfsfsfd</item>
+        <item>222222222222222222222222222222222222222</item>
+        <item>33333333333333333333333333333333333333333333333333333333333</item>
+        <item>4444444444444444444444444444444444444444444444444444444444</item>
+        <item>54555555555555555555555555555555555555555555555555</item>
+        <item>65666666666666666666666666666666666666666666666666666666666666</item>
+        <item>777777777777777777777777777777777</item>
+        <item>88888888888888888</item>
+        <item>98889999999999999999999</item>
+        <item>1000000000000000999999999999999990</item>
+        <item>110000000000000</item>
+        <item>120000000000</item>
+        <item>1300000000000000</item>
+        <item>140000000000000</item>
+        <item>15000000000</item>
+        <item>1600000000000</item>
+        <item>170000000000000000</item>
+        <item>180000000000000000</item>
+        <item>19888888888888888888888</item>
+        <item>20888888888888888888888888888888888888</item>
+
+
+
+
+
+    </string-array>
+
+</resources>
